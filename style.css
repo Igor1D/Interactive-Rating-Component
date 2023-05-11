@@ -1,0 +1,142 @@
+body {
+    background-color:hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.mainDiv {
+    background-color: hsl(213, 19%, 18%);
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    
+    
+}
+
+h2 {
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    color: white;
+}
+
+p {
+    color: #737985;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.submitBtnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.submitBtn {
+    display: block;
+    width: 100%;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+    background: #fc7613;
+    font-size: 14px;
+    cursor: pointer;
+    
+
+}
+
+.submitBtn:hover {
+    background-color: white;
+    color: #fc7613;
+    cursor: pointer;
+
+}
+
+.ratingBtn {
+    position: relative;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.ratingBtn label {
+    position: absolute;
+    top: 17px;
+    right: 23px;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.ratingBtn input {
+    border: solid 25px #4b4e55;
+    font-size: large;
+    appearance: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.ratingBtn input:hover {
+    border: solid 25px hsl(217, 12%, 63%);
+}
+.ratingBtn input:checked { 
+    border: solid 25px #fc7613; }
+    
+
+
+
+.ratingBtns {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 9px;
+    margin-right: 9px;
+
+}
+
+.starIcon {
+    background-color: #4b4e55;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+    margin-top: 25px;
+}
+
+/* Thank-you-state-page */
+
+.thank-you-sate {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.thank-you-h2-p {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 35px;
+    color: #fc7613;
+    font-size: 12px;
+    border-radius: 25px;
+    background-color: #4b4e55;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
